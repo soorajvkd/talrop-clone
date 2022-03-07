@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="65" viewBox="0 0 67 65">
+  <g id="Co_founder" data-name="Co founder" transform="translate(-28 -31)">
+    <g id="enter" transform="translate(0 1)">
+      <g id="Group_42207" data-name="Group 42207" transform="translate(-123.988 -1221.725)">
+        <rect id="Rectangle_14743" data-name="Rectangle 14743" width="67" height="65" rx="6" transform="translate(151.988 1251.725)" fill="rgba(3,169,244,0.07)"/>
+      </g>
+    </g>
+    <g id="icon3" transform="translate(41.718 43.002)">
+      <path id="Path_99783" data-name="Path 99783" d="M12.47.01A13.01,13.01,0,0,0,12.97,26H23.52A2.473,2.473,0,0,0,26,23.52V13.01A12.99,12.99,0,0,0,12.47.01Z" fill="#0fa76f"/>
+      <path id="Path_99784" data-name="Path 99784" d="M27.53,39.99A13.01,13.01,0,0,0,27.03,14H16.48A2.48,2.48,0,0,0,14,16.48V26.99a12.99,12.99,0,0,0,13.53,13Z" fill="#0073e6"/>
+      <path id="Path_99785" data-name="Path 99785" d="M26,14v9.52A2.48,2.48,0,0,1,23.52,26H14V16.48A2.48,2.48,0,0,1,16.32,14l.16-.01H26Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

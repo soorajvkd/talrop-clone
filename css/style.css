@@ -1,0 +1,1567 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+html {
+    overflow-x: hidden;
+    scroll-behavior: hidden !important;
+}
+html.modal-enabled {
+    overflow: hidden !important;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body{
+    min-width: 320px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1325px;
+}
+@font-face {
+    font-family: 'gordita regular';
+    src: url('../fonts/GorditaRegular.74727069.woff');
+}
+@font-face {
+    font-family: 'gordita medium';
+    src: url('../fonts/GorditaMedium.8667baff.woff');
+}
+@font-face {
+    font-family: 'gordita bold';
+    src: url('../fonts/GorditaBold.162fc0c8\ \(3\).woff');
+}
+@media (min-width: 980px) {
+    body.flow-enabled {
+        overflow-x: 'unset';
+    }
+}
+p{
+    line-height: 1.6em;
+    color: #757474;
+    font-family: 'gordita regular';
+}
+h2{
+    font-family: 'gordita medium';
+}
+#home{
+    padding-bottom: 200px;
+   background: url(../images/spotlight-bg.png) center bottom / cover no-repeat;
+}
+#home section.background{
+    padding: 50px 0 0;
+    background: url(../images/spotlight.png) no-repeat;
+    background-position: top 0 right 0;
+    background-size: 48%;
+}
+#home section.container{
+    width: 50%;
+}
+#home section.container h1{
+    width: 80px;
+    margin-bottom: 149px;
+}
+#home section.container h1 a.logo{
+    display: block;
+}
+#home section.container h1 a.logo img{
+    width: 100%;
+    display: block;
+}
+#home section.container h2{
+    width: 90%;
+    font-size: 50px;
+    font-family: 'gordita medium';
+}
+#home section.container h2 span.bg{
+    color: #0bbe61;
+    font-family: 'gordita bold';
+}
+#home section.container p{
+    width: 90%;
+    font-family: 'gordita regular';
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6em;
+    color: #757474;
+}
+#startup{
+    padding: 20px 0 120px;
+}
+#startup div.top{
+
+}
+#startup div.top{
+
+}
+#startup div.top div.heading{
+    position: relative;
+}
+#startup div.top div.heading h1{
+    font-size: 34px;
+    font-family: 'gordita medium';
+    text-align: center;
+}
+#startup div.top div.heading h1 span.bg{
+    color: #0bbe61;
+}
+#startup div.top div.heading span.img{
+    width: 200px;
+    display: block;
+    position: absolute;
+    top: 33px;
+    left: 380px;
+    z-index: -1;
+}
+#startup div.top div.heading span.img img{
+    display: block;
+    width: 100%;
+}
+#startup div.top p{
+    font-family: 'gordita regular';
+    line-height: 1.6em;
+    color: #757474;
+    text-align: center;
+    max-width: 700px;
+    margin: 20px auto 0px;
+    font-size: 16px;
+}
+#startup div.top ul{
+    list-style: none;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto 130px;
+}
+#startup div.top ul li{
+   height: 40px;
+   padding: 0 15px;
+   margin-bottom: 15px;
+}
+#startup div.top ul li img{
+    display: block;
+    height: 100%;
+}
+#startup div.bottom{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#startup div.bottom div.img_container{
+    width: 31%;
+}
+#startup div.bottom div.img_container img{
+    width: 100%;
+    display: block;
+}
+#startup div.bottom div.right{
+    width: 61%;
+}
+#startup div.bottom div.right h2{
+    font-size: 34px;
+    margin-bottom: 30px;
+    max-width: 500px;
+    position: relative;
+}
+#startup div.bottom div.right h2::before {
+    content: "";
+    background: url(../images/backgrounds-color.png)no-repeat;
+    background-size: contain;
+    filter: blur(10px);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 3px;
+    z-index: -1;
+    top: 3px;
+
+}
+#startup div.bottom div.right p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+#startup div.bottom div.right p.first{
+    margin-bottom: 20px;
+}
+#projects{
+    padding-bottom: 120px;
+}
+#projects section.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#projects div.left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+#projects div.left div.content{
+    
+}
+#projects div.left div.content h2{
+    font-size: 34px;
+}
+#projects div.left div.content p{
+    font-size: 16px;
+    margin-top: 30px;
+}
+#projects div.right{
+    width: 50%;
+}
+#projects div.right ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    position: relative;
+}
+#projects div.right ul li{
+    width: 40%;
+    padding: 20px;
+    border: 1px solid #96ca4c5a;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+#projects div.right ul li:nth-child(2n+1){
+    width: 40%;
+    padding: 20px;
+    border: 1px solid #96ca4c5a;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    transform: translateY(50px);
+}
+#projects div.right ul li:hover{
+    border: 1px solid #fff;
+    box-shadow: #0000001a 0px 10px 50px;
+    transition: all 0.3s ease-in-out 0s;
+}
+#projects div.right ul li div.img_container{
+    width: 100%;
+}
+#projects div.right ul li div.img_container img{
+    width: 100%;
+    display: block;
+}
+#projects div.right ul li div.content{
+    
+}
+#projects div.right ul li div.content h3{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'gordita medium';
+    color: #545454;
+}
+#projects div.right ul li div.content p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#talrop{
+    background-color: #f9f9f9;
+    padding: 120px 0;
+}
+#talrop section.wrapper{
+    background: url(../images/background-color-gray.png) no-repeat;
+    background-size: 164px 200px;
+    background-position: left 360px top -24px;
+}
+#talrop h2{
+    text-align: center;
+    font-size: 34px;
+    font-family: 'gordita medium';
+}
+#talrop p{
+    max-width: 660px;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 16px;
+}
+#talrop ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#talrop ul li{
+    margin: 100px 10px 0;
+    padding: 50px 20px 30px;
+    background: #fff;
+    border: 1px solid #d6ecd4;
+    border-radius: 15px;
+    position: relative;
+    min-height: 300px;
+}
+#talrop ul li span.img{
+    width: 110px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: -55px;
+    padding: 7px;
+    background: transparent;
+    border-radius: 50%;
+    border: 2px solid rgb(11, 190, 97);
+}
+#talrop ul li span.img img{
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+}
+#talrop ul li h3{
+    font-family: 'gordita medium';
+    font-size: 18px;
+    margin-top: 40px;
+    color: #545454;
+}
+#talrop ul li p{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+#talrop ul li a.button{
+    width: calc(100% - 60px);
+    font-family: 'gordita medium';
+    font-size: 14px;
+    background: #bce8d0;
+    display: block;
+    padding: 15px 10px;
+    color: #0bbe61;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    text-align: center;
+}
+#team{
+    padding: 130px 0;
+}
+#team h3{
+    max-width: 500px;
+    font-size: 34px;
+    font-family: 'gordita medium';
+    text-align: center;
+    margin: 0 auto;
+}
+#team ul{
+    width: 80%;
+    margin: 60px auto 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 23px;
+    list-style: none;
+}
+#team ul li{
+    width: 26%;
+    text-align: center;
+}
+#team ul li div.profile{
+    display: block;
+    padding: 15px;
+    border: 1px solid #d9f0e8;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+#team ul li div.profile img{
+    display: block;
+    width: 100%;
+}
+#team ul li span.name{
+    font-family: 'gordita medium';
+    display: block;
+    color: #545454;
+}
+#team ul li span.small{
+    font-family: 'gordita regular';
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #747474;
+}
+#team ul li a.button{
+    font-family: 'gordita medium';
+    background: #2b7ebc;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#team ul li a.button span.img{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #fff;
+    width: 25px;
+    height: 20px;
+    display: block;
+}
+#team ul li a.button span.img img{ 
+    width: 15px;
+    display: block;
+}
+#team ul li a.button small{ 
+    font-size: 12px;
+    padding-left: 6px;
+}
+#team div.img_container{
+
+}
+#team div.img_container img{
+    width: 71%;
+    display: block;
+    margin: 0 auto;
+}
+#team div.img_container img.res{
+    display: none;
+}
+#interest{
+    padding: 130px 0;
+    background: #f9f9f9;
+}
+#interest section.wrapper{
+    display: flex;
+}
+
+#interest div.left{
+    width: 34%;
+    display: flex;
+    align-items: center;
+}
+#interest div.left h2{
+    font-family: 'gordita medium';
+    font-size: 34px;
+}
+#interest div.right{
+    width: 67%;
+}
+#interest div.right ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+#interest div.right ul li{
+    width: 46%;
+    display: flex;
+    justify-content: flex-start;
+}
+#interest div.right ul li span.img{
+    display: block;
+    width: 50px;
+    min-width: 50px;
+    margin-right: 20px;
+}
+#interest div.right ul li span.img img{
+    display: block;
+    width: 100%;
+} 
+#interest div.right ul li div.content{
+    
+}
+#interest div.right ul li div.content h3{
+    font-size: 20px;
+    color: rgb(84, 84, 84);
+    font-family: 'gordita medium';
+    margin-bottom: 10px;
+}
+#interest div.right ul li div.content p{
+    font-size: 16px;
+}
+#revelution{
+    padding: 114px 0 37px;
+}
+#revelution section.wrapper{ 
+    display: flex;
+    justify-content: space-between;
+}
+#revelution h2.responsive{
+    font-size: 34px;
+    font-family: 'gordita medium';
+    margin-bottom: 54px;
+    letter-spacing: 0.41px;
+    display: none;
+}
+#revelution div.left{
+    width: 49%;
+    position: relative;
+    display: block;
+}
+#revelution div.left h2{
+    font-size: 34px;
+    font-family: 'gordita medium';
+    margin-bottom: 54px;
+    letter-spacing: 0.41px;
+    position: relative;
+}
+#revelution div.left h2::before{
+    content: "";
+    position: absolute;
+    top: -86px;
+    left: -70px;
+    width: 273px;
+    height: 258px;
+    z-index: -1;
+    background: url(../images/backgrounds-color.png)no-repeat;
+    background-size: cover;
+}
+#revelution div.left div.item{
+    margin-bottom: 63px;
+}
+#revelution div.left div.item h3{
+    margin-bottom: 10px;
+    font-family: 'gordita medium';
+    font-size: 20px;
+}
+#revelution div.left div.item p{
+    
+}
+#revelution div.right{
+    position: sticky;
+    top: 50px;
+    width: 40%;
+    padding: 35px;
+    border: 1px solid #e2e2e2;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 650px;
+}
+#revelution div.right span.logo{
+    width: 84px;
+    display: block;
+    margin: 0 auto;
+}
+#revelution div.right span.logo img{
+    width: 100%;
+    display: block;
+}
+#revelution div.right h4{
+    font-size: 16px;
+    font-family: 'gordita medium';
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 12px;
+}
+#revelution div.right h4::before{
+    content: "";
+    left: 29px;
+    width: 4px;
+    height: 18px;
+    background: rgb(27, 202, 27);
+    margin-right: 5px;
+    position: absolute;
+}
+#revelution div.right p{
+    font-size: 15px;
+    margin-top: 16px;
+}
+#programs{
+    background: #f9f9f9;
+    padding: 114px 0 45px;
+    
+}
+#programs h2{
+    text-align: center;
+    font-size: 34px;
+    margin: 0px auto 70px;
+    letter-spacing: 0.41px;
+}
+#programs ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+#programs ul li{
+    width: 26%;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(214, 236, 212);
+    border-radius: 20px;
+    padding: 82px 30px 30px;
+    position: relative;
+    margin-bottom: 60px;
+    min-height: 250px;
+}
+#programs ul li:hover{
+    box-shadow: rgb(0 0 0 / 9%) 20px 23px 25px;
+    transition: all 0.6s ease-in-out 0s;
+}
+#programs ul li span.img{
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    top: -32px;
+    left: 24px;
+    box-shadow: rgb(0 0 0 / 10%) 8px 14px 16px;
+    background-color: rgb(219, 239, 255);
+}
+#programs ul li span.img img{
+    width: 100%;
+    display: block;
+}
+#programs ul li div.content{
+    
+}
+#programs ul li div.content h3{
+    font-family: 'gordita medium';
+    margin-top: 5px;
+    font-size: 20px;
+}
+#programs ul li div.content p{
+    letter-spacing: 0px;
+    color: rgb(142, 140, 140);
+    line-height: 1.5;
+    margin-top: 10px;
+    font-size: 15px;
+}
+#programs ul li div.bottom{
+    width:calc(100% - 60px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+#programs ul li div.bottom span.enquirey{
+    color: rgb(15, 167, 111);
+    font-size: 16px;
+    transform: translateY(3px);
+    font-family: 'gordita medium';
+    display: inline-block;
+}
+#programs ul li div.bottom span.social{
+    display: inline-block;
+}
+#programs ul li div.bottom span.social a.mail{
+    width: 45px;
+    margin-right: 10px;
+    display: inline-block;
+}
+#programs ul li div.bottom span.social a.mail img{
+    width: 100%;
+    display: inline-block;
+}
+#programs ul li div.bottom span.social a.whatsapp{
+    width: 45px;
+    display: inline-block;
+}
+#programs ul li div.bottom span.social a.whatsapp img{
+    width: 100%;
+    display: inline-block;
+}
+#parks{
+    padding: 120px 0px;
+}
+#parks div.top{
+    text-align: center;
+}
+#parks div.top h2{
+    font-size: 34px;
+    font-family: 'gordita medium';
+    color: rgb(33, 33, 33);
+    text-align: center;
+    margin: 0px auto;
+    letter-spacing: 0.41px;
+    position: relative;
+}
+#parks div.top h2::before{
+    content: "";
+    position: absolute;
+    width: 223px;
+    height: 221px;
+    background: url(../images/backgrounds-color.png) no-repeat;
+    background-size: cover;
+    top: -85px;
+    left: 443px;
+    z-index: -1;
+}
+#parks div.top p{
+    letter-spacing: 0px;
+    line-height: 1.5;
+    font-size: 16px;
+    width: 70%;
+    max-width: 700px;
+    text-align: center;
+    margin: 10px auto 54px;
+}
+#parks ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+#parks ul li{
+    width: 29%;
+    padding: 24px 20px;
+}
+#parks ul li:hover{
+    background: rgb(249, 249, 249);
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out 0s;
+    transform: translateY(-10px);
+}
+#parks ul li div.img_container{
+   display: block;
+   border-radius: 15px;
+}
+#parks ul li div.img_container img{
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+#parks ul li h4{
+    font-family: 'gordita medium';
+    margin-top: 18px;
+    font-size: 16px;
+}
+#parks ul li a.button{
+    width: 51%;
+    padding: 7px 14px;
+    background: rgb(229, 245, 239);
+    border: 1px solid rgb(26, 218, 147);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(15, 167, 111);
+    font-size: 16px;
+    margin-top: 27px;
+}
+#parks ul li a.button span.image{
+    margin-right: 7px;
+    width: 20px;
+    min-width: 20px;
+    display: inline-block;
+}
+#parks ul li a.button span.image img{
+    width: 100%;
+    display: block;
+} 
+#parks ul li a.button small{
+    color: rgb(15, 167, 111);
+    font-size: 16px;
+    font-family: "gordita regular";
+}
+#village {
+
+}
+#village section.container{
+    background: #f9f9f9;
+    padding: 97px 55px 90px;
+    display: flex;
+    justify-content: space-around;
+}
+#village section.container div.left{
+    width: 37%;
+}
+#village section.container div.left h3{
+    font-size: 32px;
+    font-family: 'gordita medium';
+    color: rgb(33, 33, 33);
+    position: relative;
+    margin-bottom: 54px;
+}
+#village section.container div.left h3::before{
+    content: "";
+    position: absolute;
+    top: 79px;
+    left: 9px;
+    width: 200px;
+    height: 7px;
+    background: url(../images/line.svg) no-repeat;
+    background-size: cover;
+}
+#village section.container div.left div.item{
+    display: flex;
+    width: 100%;
+}
+#village section.container div.left div.item span.image{
+    width: 30px;
+    height: 30px;
+    margin-right: 18px;
+    display: block;
+}
+#village section.container div.left div.item span.image img{
+   width: 100%;
+   display: inline-block;
+}
+#village section.container div.left div.item p{
+    line-height: 1.8;
+    font-size: 14px;
+    width: 90%;
+    margin-bottom: 23px;
+}
+#village section.container div.right{
+    width: 55%;
+}
+#village section.container div.right div.img_container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#village section.container div.right div.img_container img{
+    width: 100%;
+    display: block;
+} 
+#village section.container div.right div.img_container div.play{
+    width: 80px;
+    position: absolute;
+}
+#village section.container div.right div.img_container div.play img{
+    width: 100%;
+    display: block;
+}
+#apply{
+    padding: 100px 0;
+}
+#apply h2{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 27px;
+    position: relative;
+}
+#apply h2 span.image{
+    width: 158px;
+    display: block;
+    height: 7px;
+    position: absolute;
+    right: 325px;
+    bottom: -2px;
+}
+#apply h2 span.image img{
+    width: 100%;
+    display: block;
+}
+#apply h2::before{
+    content: '';
+    position: absolute;
+    top: -41px;
+    right: 379px;
+    width: 246px;
+    height: 192px;
+    background: url(../images/backgrounds-color.png) no-repeat;
+    background-size: contain;
+    z-index: -1;
+}
+#apply p{
+    width: 70%;
+    margin: 0 auto 27px;
+    text-align: center;
+}
+#apply ul{
+    display: flex;
+    justify-content: space-between;
+}
+#apply ul li{
+    width: 32%;
+    display: flex;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(214, 236, 212);
+    border-radius: 14px;
+    padding: 26px 20px;
+    min-height: 320px;
+    box-sizing: border-box;
+}
+#apply ul li:hover{
+    box-shadow: rgb(0 0 0 / 9%) 20px 23px 46px;
+    transition: all 0.3s ease-in-out 0s;
+}
+#apply ul li span.image{
+    width: 53px;
+    height: 53px;
+    margin-right: 10px;
+    display: inline-block;
+}
+#apply ul li span.image img{
+    display: block;
+    width: 100%;
+}
+#apply ul li div.content{
+    display: block;
+    width: calc(100% - 63px);
+    position: relative;
+}
+#apply ul li div.content div.top{
+    
+}
+#apply ul li div.content div.top h4{
+    font-family: 'gordita medium';
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #545454;
+}
+#apply ul li div.content div.top h3{
+    color: rgb(15, 167, 111);
+    font-family: 'gordita medium';
+}
+#apply ul li div.content div.top p{
+    margin: 10px 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    width: 100%;
+}
+#apply ul li div.content div.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#apply ul li div.content div.bottom span.admission{
+    color: rgb(15, 167, 111);
+    font-size: 16px;
+    transform: translateY(3px);
+    font-family: 'gordita medium';
+}
+#apply ul li div.content div.bottom div.social{
+    
+}
+#apply ul li div.content div.bottom div.social a.mail{
+    width: 45px;
+    margin-right: 10px;
+    display: inline-block;
+}
+#apply ul li div.content div.bottom div.social a.mail img{
+    display: block;
+    width: 100%;
+}
+#apply ul li div.content div.bottom div.social a.whatsapp{
+    width: 45px;
+    display: inline-block;
+}
+#apply ul li div.content div.bottom div.social a.whatsapp img{
+    width: 100%;
+    display: block;
+}
+footer{
+    background-color: rgb(30, 30, 30);
+    padding: 100px 0px 50px;
+}
+footer section.wrapper{
+   display: flex;
+   justify-content: space-between;
+}
+footer div.left{
+    width: 30%;
+}
+footer div.left h1{
+    width: 70px;
+    margin-bottom: 30px;    
+}
+footer div.left h1 a{
+    display: block;
+}
+footer div.left h1 a img{
+    width: 100%;
+    display: block;
+}
+footer div.left p{
+    font-size: 16px;
+    color: rgb(170, 170, 170);
+    line-height: 28px;
+}
+footer div.right{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+footer div.right ul.item{
+    width: 22%;
+}
+footer div.right ul.item li{
+
+}
+footer div.right ul.item li h5{
+    font-size: 16px;
+    font-family: 'gordita medium';
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+footer div.right ul.item li a{
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(170, 170, 170);
+    font-size: 15px;
+    font-family: 'gordita regular';
+}
+footer div.right ul.item li ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+footer div.right ul.item li ul li{
+    height: 20px;
+}
+footer div.right ul.item li ul li a{
+    display: block;
+    height: 20px;
+    color: #000;
+}
+footer div.right ul.item li ul li a img{
+    display: block;
+    height: 100%; 
+}
+footer div.right ul.item li ul li a img.color{
+    display: none;
+    height: 100%;
+}
+footer div.right ul.item li ul li:hover a img.color{
+    display: block;
+    height: 100%;
+}
+footer div.right ul.item li ul li:hover a img{
+    display: none;
+    height: 100%;
+}
+footer div.bottom{
+    text-align: center;
+    margin-top: 50px;
+}
+footer div.bottom p{
+    font-size: 16px;
+    color: rgb(170, 170, 170);
+} 
+
+@media all and (max-width: 1280px){
+    body{
+        background-size: 100% 790px;
+    }
+    #home{
+        padding-bottom: 150px;
+    }
+    #home section.container{
+        width: 90%;
+    }
+    #home section.container h2 {
+        max-width: 500px;
+        font-size: 48px;
+    }
+    #home section.container p{
+        max-width: 600px;
+    }
+    #startup div.top div.heading span.img {
+        top: 38px;
+        left: 341px;
+        
+    }
+    #startup div.bottom{
+        width: 98%;
+    }
+    #projects section.wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #projects div.left {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #projects div.left div.content p{
+        margin-bottom: 27px;
+    }
+    #projects div.right {
+        width: 100%;
+    }
+    #projects div.right ul {
+        max-width: 700px;
+        margin: 60px auto 0;
+    } 
+    #talrop ul li {
+        width: 25%;
+    }
+    #interest section.wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    #interest div.left {
+        width: 90%;
+        margin: 0 auto 35px;
+        text-align: center;
+    }
+    #interest div.left h2 {
+        font-size: 34px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #interest div.right {
+        width: 100%;
+    }
+    #programs ul li {
+        width: 33%;
+    }
+    #parks ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #parks ul li {
+       width: 28%;
+    }
+    #village section.container {
+        background: #f9f9f9;
+        padding: 65px 38px 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #apply ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #apply ul li {
+        width: 45%;
+        margin-bottom: 35px;
+    }
+    footer section.wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    footer div.left {
+        width: 50%;
+        max-width: 480px;
+        margin: 0px auto 20px;
+        text-align: center;
+    }
+    footer div.left h1 {
+        width: 70px;
+        margin: 0 auto 20px;
+    }
+    footer div.left p {
+        font-size: 14px;
+    }
+    footer div.left p br {
+        display: none;
+    }
+    footer div.right {
+        width: 100%;
+    }
+    footer div.right ul.item li a {
+        font-size: 14px;
+    }
+    footer div.bottom p {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 1080px) {
+    #talrop ul{
+        justify-content: center;
+    }
+    #talrop ul li{
+        min-height: 300px;
+    }
+    #team ul{
+        width: 100%;
+    }
+    #programs ul li{
+        width: 40%;
+    }        
+}
+@media all and (max-width: 980px) {
+
+    #startup div.bottom {
+        align-items: flex-start;
+    }
+    #talrop ul li {
+        width: 40%;
+    }
+    #revelution div.left h2 {
+        display: none;
+    }
+    #revelution section.wrapper {
+        flex-direction: column-reverse;
+    }
+    #revelution h2.responsive {
+        font-size: 27px;
+        font-family: 'gordita medium';
+        margin-bottom: 54px;
+        letter-spacing: 0.41px;
+        display: block;
+        text-align: center;
+    }
+    #revelution div.left {
+        width: 100%;
+    }
+    #revelution div.right {
+        width: 90%;
+        position: inherit;
+        height: initial;
+        margin-bottom: 20px;
+    }
+    #programs ul li{
+        width: 38%;
+    }
+    #parks ul li {
+        width: 47%;
+        box-sizing: border-box;
+    }
+    #village section.container {
+        flex-direction: column;
+    }
+    #village section.container div.left {
+        width: 100%;
+    }
+    #village section.container div.left h3 {
+        text-align: center;
+        font-size: 27px;
+    }
+    #village section.container div.left h3::before {
+        top: 63px;
+        left: 183px;
+    }
+    #village section.container div.right {
+        width: 100%;
+    }
+    #apply {
+        padding: 100px 0 70px;
+    } 
+    #apply h2{
+        font-size: 27px;
+    }
+    #apply h2 span.image {
+        width: 136px;
+        right: 121px;
+        bottom: 3px;
+    }
+    #apply h2::before{
+        right: 200px;
+    }
+    #apply ul li {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    footer div.left {
+        width: 100%;
+        max-width: 480px;
+        margin: 0px auto 20px;
+        text-align: center;
+    }
+}
+@media all and (max-width: 768px) {
+    #home section.container h2 {
+        font-size: 44px;
+    }
+    #home section.container h1 {
+        margin-bottom: 100px;
+    }
+    #home section.container p {
+        width: 100%;
+        font-size: 16px;
+    }
+    #startup div.bottom {
+        flex-direction: column;
+    }
+    #startup div.bottom div.img_container {
+        width: 63%;
+        margin-bottom: 30px;
+    }
+    #startup div.bottom div.right {
+        width: 100%;
+    }
+    #talrop ul {
+        justify-content: space-between;
+    }
+    #talrop ul li {
+        width: 38%;
+    }
+    #team ul {
+        margin: 60px 0 130px;
+        justify-content: space-between;
+    }
+    #team ul li {
+        width: 30%;
+        text-align: center;
+    }
+    #interest div.right ul li {
+        width: 100%;
+    }
+    #programs ul li {
+        min-height: 205px;
+        width: 100%;
+        max-width: 500px;
+        padding: 63px 25px 25px;
+    }
+    #parks ul li {
+        width: 50%;
+        box-sizing: border-box;
+    }
+    #parks div.top h2::before {
+        left: 72px;
+    }
+    #village section.container div.left h3::before {
+        width: 110px;
+        top: 63px;
+        left: 225px;
+    }
+    #apply ul li {
+        min-height: 300px;
+    }
+    footer div.right ul.item {
+        width: 25%;
+    }
+}
+@media all and (max-width: 680px) {
+    #home section.container h2{
+        width: 100%;
+        font-size: 36px;
+    }
+    #home {
+        padding-bottom: 50px;
+    }
+    #startup div.top div.heading span.img {
+        width: 163px;
+        left: 38px;
+    }
+    #startup div.top p {
+        font-size: 15px;
+    }
+    #projects div.right ul li {
+        width: 100%;
+    }
+    #projects div.right ul li:nth-child(2n+1) {
+        width: 100%;
+        transform: translateY(0px);
+    }
+    #projects div.left div.content p {
+        margin-bottom: 0;
+    }
+    #revelution div.right {
+        width: 80%;
+    }
+    #revelution h2.responsive {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    #talrop ul li {
+        width: 100%;
+    }
+    #talrop section.wrapper {
+       background: none;
+    }
+    #team ul li {
+        width: 47%;
+        text-align: center;
+    }
+    #team div.img_container img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    #parks ul li {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #parks div.top p{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    #village section.container div.left h3::before {
+        width: 110px;
+        top: 63px;
+        left: 156px;
+    }
+    #apply p{
+        width: 100%;
+    }
+    footer div.right{
+        flex-wrap: wrap;
+    }
+    footer div.right ul.item {
+        width: 50%;
+    }
+}
+@media all and (max-width: 480px) {
+    #home section.container h1 {
+        width: 60px;
+    }
+    #home section.container h2 {
+        font-size: 28px;
+    }
+    #home section.container p {
+        font-size: 14px;
+        margin-top: 15px
+    }
+    #startup div.top div.heading h1 {
+        font-size: 24px;
+    }
+    #startup div.bottom div.img_container {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #startup div.bottom div.right h2 {
+        font-size: 24px;
+    }
+    #startup div.bottom div.right p {
+        font-size: 15px;
+    }
+    #projects div.left div.content h2 {
+        font-size: 24px;
+    }
+    #startup {
+        padding-bottom: 80px;
+    }
+    #projects div.left div.content p {
+        font-size: 15px;
+    }
+    #talrop h2 {
+        font-size: 24px;
+    }
+    #talrop p {
+        font-size: 15px;
+    }
+    #team {
+        padding-top: 100px;
+    }
+    #team h3 {
+        font-size: 24px;
+    }
+    #team section.wrapper{
+        width: 96%;
+    }
+    #team ul li {
+        width: 46%;
+    }
+    #team div.img_container img {
+        display: none;
+    }
+    #team div.img_container img.res {
+        display: block;
+        width: 70%;
+    }
+    #interest div.left h2 {
+        font-size: 24px;
+    }
+    #interest div.right ul li div.content h3 {
+        font-size: 16px;
+    }
+    #interest div.right ul li div.content p {
+        font-size: 14px;
+    }
+    #revelution h2.responsive {
+        font-size: 24px;
+    }
+    #revelution div.right {
+        width: 77%;
+    }
+    #revelution div.left div.item p {
+        font-size: 15px;
+    }
+    #programs h2 {
+        font-size: 24px;
+    }
+    #programs ul li {
+        min-height: 290px;
+    }
+    #village section.container div.left h3 {
+        font-size: 24px;
+    }
+    #village section.container div.left h3::before {
+        left: 111px;
+    }
+    #village section.container div.left div.item {
+        display: flex;
+        flex-direction: column;
+    }
+    #village section.container div.left div.item span.image {
+        margin-bottom: 10px;
+    }
+    #apply p {
+        font-size: 15px;
+    }
+    #apply ul li {
+        flex-direction: column;
+    }
+    #apply ul li span.image {
+        margin-bottom: 15px;
+    }
+    #apply ul li div.content {
+        width: 100%;
+    }
+    #apply ul li div.content div.top {
+        margin-bottom: 60px;
+    }
+}
+@media all and (max-width: 360px) {
+    #home section.container {
+        width: 100%;
+    }
+    #startup div.top div.heading span.img {
+        width: 134px;
+        left: 38px;
+    }
+    #team ul li {
+        width: 85%;
+        margin: 0 auto;
+    }
+    #interest div.right ul li {
+        flex-direction: column;
+    }
+    #interest div.right ul li span.img {
+        margin-bottom: 15px;
+    }
+    #village section.container {
+        padding: 65px 38px 35px;
+    }
+    #village section.container div.left h3::before {
+        left: 82px;
+    }
+    #apply h2 span.image {
+        width: 136px;
+        right: 80px;
+        bottom: 3px;
+    }
+}
+
